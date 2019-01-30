@@ -11,7 +11,7 @@ const workers = require('./lib/workers');
 const app = {};
 
 // Init function
-app.init = ()=>{
+app.init = function() {
     // Start the server
     server.init();
     // Start the workers
